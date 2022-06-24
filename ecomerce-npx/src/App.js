@@ -1,27 +1,26 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ComponenteClase from "./ComponenteClase"
+import Titulo from "./components/Titulo/Titulo";
 
 function App() {
+  const count = 0// estado de App
+  const objStyle = { color: 'white', backgroundColor: 'black', fontSize: 50 }
+  return (
+      <div className="App" style={objStyle} >
+        <Titulo/>
+        {Titulo ()}
+    <ComponenteClase />
+  { count }
+      <img src={logo} />
+      <p>Hector</p>
+      <div />
+      </div >
 
-const condicion = false;
-// let result = ''
-// if (condicion) {
-//   result = 'correcto'
-  
-// } else {
-//   result = 'incorrecto'
-  
-// } 
-  // console.log('result: ' + result + '\n todo bien ');
-  console.log(`El resultado es : ${ condicion ? 'correcto ': 'incorrecto' }`) // Ternarios para simplificar
-
-  return <div className="App">'Hector'</div>;
-}
-
-
+  )
+  }
 
 
-export default App;
-
+export default App
 
 
