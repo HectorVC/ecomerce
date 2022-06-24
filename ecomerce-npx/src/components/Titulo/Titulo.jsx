@@ -1,9 +1,9 @@
 
-const Titulo = () => {
+const Titulo = ({ titulo, subTitulo }) => {
     return (
         <div>
-            <h1>Titulo App</h1>
-               <h2>Subtitulo App 2</h2>
+            <h1>{ titulo }</h1>
+               <h2>{ subTitulo}</h2>
         </div>
     )
     }
