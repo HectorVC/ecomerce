@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ComponenteClase from "./ComponenteClase"
 import Titulo from "./components/Titulo/Titulo";
+import Formulario from "./components/Formulario/Formulario";
 
 function App() {
   const count = 0// estado de App
@@ -9,7 +10,8 @@ function App() {
   return (
       <div className="App" style={objStyle} >
         <Titulo/>
-        {Titulo ()}
+        {/* {Titulo ()}  */}
+        <Formulario/>
     <ComponenteClase />
   { count }
       <img src={logo} />
